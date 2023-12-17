@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*----------Estilos logo----------*/
+.logo {
+    width: 15rem;
+    height: 5rem;
+}
+
+/*----------Estilos menú----------*/
+.header_menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    color: white;
+}
