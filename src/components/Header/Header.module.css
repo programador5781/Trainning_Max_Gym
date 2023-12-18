@@ -5,8 +5,9 @@
 
 /*----------Estilos logo----------*/
 .logo {
-    width: 15rem;
-    height: 5rem;
+    width: 14rem;
+    height: 4.6rem;
+    margin-right: auto; 
 }
 
 /*----------Estilos menú----------*/
@@ -15,4 +16,13 @@
     display: flex;
     gap: 2rem;
     color: white;
+}
+
+/* .header_menu > li {
+    cursor: pointer;
+} */
+
+.header_menu > li:hover {
+    color: var(--orange);
+    cursor: pointer;
 }
