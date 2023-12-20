@@ -1,13 +1,13 @@
 import React from 'react';
 import style from './Reasons.module.css';
-import { image_1, image_2, image_3, image_4, nb, adidas, nike, tick } from './index';
+import { image_1, image_2, image_3, image_4, image_5, image_6, nb, adidas, nike, tick } from './index';
 
 const Reasons = () => {
     return (
         <div className={style.Reasons} id='reasons'>
             <div className={style.left_reasons}>
-                <img src={image_1} alt='' />
-                <img src={image_2} alt='' />
+                <img src={image_5} alt='' />
+                <img src={image_6} alt='' />
                 <img src={image_3} alt='' />
                 <img src={image_4} alt='' />
             </div>
@@ -15,10 +15,10 @@ const Reasons = () => {
                 <span>Nuestras Ventajas</span>
 
 
-                    <div>
-                        <span className={style.stroke_text}>Por qué </span>
-                        <span>escogernos ?</span>
-                    </div>
+                <div>
+                    <span className={style.stroke_text}>Por qué </span>
+                    <span>escogernos ?</span>
+                </div>
                 <div className={style.details_right}>
 
                     <div >
@@ -38,7 +38,15 @@ const Reasons = () => {
                         <span> programas confiables</span>
                     </div>
                 </div>
-                <span>Nuestros Patrocinadores</span>
+                <span>
+                    Nuestros Patrocinadores
+                </span>
+
+                <div className={style.partners}>
+                    <img src={nb} alt='' />
+                    <img src={adidas} alt='' />
+                    <img src={nike} alt='' />
+                </div>
             </div>
         </div>
     )

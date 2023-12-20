@@ -3,6 +3,7 @@
     display: flex;
     /* grid-template: 2rem ; */
     gap: 2rem;
+    /* margin-bottom: 3rem; */
 }
 
 .left_reasons {
@@ -90,4 +91,15 @@
 .details_right>div>img {
     width: 2rem;
     height: 2rem;
+}
+
+/* ----------Estilos partners---------- */
+.partners {
+    display: flex;
+    gap: 1rem;
+
+}
+
+.partners > img {
+    gap: 1rem;
 }
