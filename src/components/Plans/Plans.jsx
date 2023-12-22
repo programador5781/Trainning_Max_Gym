@@ -7,13 +7,15 @@ import whiteTick from '../../assets/whiteTick.png';
 const Plans = () => {
     return (
         <div className={style.plans_Container}>
+            <div className={`${style.blur} ${style.plans_blur_1}`}></div>
+            <div className={`${style.blur} ${style.plans_blur_2}`}></div>
             <div className={style.programs_header}>
                 <span className={style.stroke_text}>LISTO PARA COMENZAR </span>
                 <span className={style.training}>TU ENTRENAMIENTO </span>
                 <span className={style.stroke_text}>CON NOSOTROS</span>
             </div>
 
-            {/* Gallery */}
+            {/* plans */}
             <div className={style.plans}>                
                 {plansData.map((plan, index) => (
                     <div className={style.plan} key={index} >
@@ -31,7 +33,7 @@ const Plans = () => {
                         </div>
 
                         <div>
-                            <span>Mira mas beneficios -> </span>
+                            <span>Mira mas beneficios &rarr; </span>
                         </div>
                         <button className={style.btn}>Únete ahora</button>
                     </div>

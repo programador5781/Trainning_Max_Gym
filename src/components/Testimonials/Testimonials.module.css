@@ -52,6 +52,11 @@
     right: 8rem;
     top: 2rem;
     border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.right_t > img:hover {
+    transform: scale(1.05);
 }
 
 .right_t>:nth-child(1) {
@@ -80,7 +85,7 @@
     gap: 1rem;
     position: absolute;
     bottom: 0.1rem;
-    left: 3rem;
+    left: 9rem;
 }
 
 .arrows>img {

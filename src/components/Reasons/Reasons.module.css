@@ -103,3 +103,32 @@
 .partners > img {
     gap: 1rem;
 }
+
+/* ----------Estilos responsive---------- */
+@media  screen and (max-width: 768px) {
+    .Reasons {
+        flex-direction: column;
+        margin-bottom: 5rem;
+    }
+
+    .left_reasons {
+        grid-auto-rows: auto;
+        overflow: hidden;
+    }
+
+    .left_reasons > :nth-child(1){
+        width: 7rem;
+        height: 17rem;
+    }
+    .left_reasons > :nth-child(2){
+        width: 15rem;
+        height: 10rem;
+    }
+    .left_reasons > :nth-child(3){
+        width: 7rem;
+    }
+    .left_reasons > :nth-child(4){
+        width: 7rem;
+        height: 6rem;
+    }
+}
