@@ -5,6 +5,11 @@ import whiteTick from '../../assets/whiteTick.png';
 
 
 const Plans = () => {
+    const handleWhatsAppClick = () => {
+        window.open('https://api.whatsapp.com/send?phone=573147548254', '_blank')
+    };
+
+
     return (
         <div className={style.plans_Container}>
             <div className={`${style.blur} ${style.plans_blur_1}`}></div>
@@ -16,7 +21,7 @@ const Plans = () => {
             </div>
 
             {/* plans */}
-            <div className={style.plans}>                
+            <div className={style.plans} id='plans'>                
                 {plansData.map((plan, index) => (
                     <div className={style.plan} key={index} >
                         {plan.icon}
@@ -35,7 +40,7 @@ const Plans = () => {
                         <div>
                             <span>Mira mas beneficios &rarr; </span>
                         </div>
-                        <button className={style.btn}>Únete ahora</button>
+                        <button className={style.btn} onClick={handleWhatsAppClick}>Únete ahora</button>
                     </div>
                 ))}
             </div>

@@ -10,7 +10,7 @@ const Join = () => {
     const sendEmail = (e) => {
         e.preventDefault();
     
-        emailjs.sendForm('service_09m4ugh', 'template_merytff', form.current, 'zfrM-3drHagK3W3vp')
+        emailjs.sendForm('service_yvz0p5k', 'template_1578x7b', form.current, 'VBjn4ljBKO4JTOlQ0')
           .then((result) => {
               console.log(result.text);
               toast.success('¡Email enviado con éxito!', { autoClose: 3000 });

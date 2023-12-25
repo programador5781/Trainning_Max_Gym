@@ -127,9 +127,20 @@
     align-items: center;
     justify-content: center;
     border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
 }
 
 .btn:hover {
     cursor: pointer;
+    transform: scale(1.05);
 }
 
+/* ----------Estilos responsive---------- */
+@media  screen and (max-width: 768px) {
+    .plans {
+        flex-direction: column;
+    }
+    .plans>:nth-child(2) {
+        transform: none;
+    }
+}

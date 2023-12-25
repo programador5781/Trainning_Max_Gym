@@ -131,4 +131,7 @@
         width: 7rem;
         height: 6rem;
     }
+    .partners>img {
+        width: 3rem;
+    }
 }

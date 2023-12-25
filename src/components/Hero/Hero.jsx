@@ -8,9 +8,12 @@ import { motion } from 'framer-motion';
 const Hero = () => {
   const transition = { type: 'spring', duration: 3 };
   const mobile = window.innerWidth<=768 ? true : false;
+  const handleWhatsAppClick = () => {
+    window.open('https://api.whatsapp.com/send?phone=573147548254', '_blank');
+};
 
   return (
-    <div className={style.hero} >
+    <div className={style.hero} id='Hero' >
       <div className={`${style.blur} ${style.hero_blur}`}></div>
       <div className={style.left_h}>
         <Header />
@@ -46,8 +49,8 @@ const Hero = () => {
             <span>Entrenadores </span>
           </div>
           <div>
-            <span>+80 </span>
-            <span>Miembros</span>
+            <span>Más </span>
+            <span>Equipos</span>
           </div>
           <div>
             <span>+10 </span>
@@ -57,13 +60,13 @@ const Hero = () => {
 
         {/* Button */}
         <div className={style.hero_buttons}>
-          <button className={style.btn}>Empieza Ya</button>
-          <button className={style.btn}>Aprende Más</button>
+          <button className={style.btn} onClick={handleWhatsAppClick}>Empieza Ya</button>
+          <button className={style.btn} onClick={handleWhatsAppClick}>Aprende Más</button>
         </div>
       </div>
 
       <div className={style.right_h}>
-        <button className={style.btn}>Únete Ahora</button>
+        <button className={style.btn} onClick={handleWhatsAppClick}>Únete Ahora</button>
 
         <motion.div
           initial={{ right: '-1rem' }}

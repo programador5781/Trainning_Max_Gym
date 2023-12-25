@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './Reasons.module.css';
-import { image_1, image_2, image_3, image_4, image_5, image_6, nb, adidas, nike, tick } from './index';
+import { image_3, image_4, image_5, image_6, nb, adidas, nike, tick, eleiko } from './index';
 
 const Reasons = () => {
     return (
@@ -46,6 +46,7 @@ const Reasons = () => {
                     <img src={nb} alt='' />
                     <img src={adidas} alt='' />
                     <img src={nike} alt='' />
+                    <img src={eleiko} alt='' />
                 </div>
             </div>
         </div>
