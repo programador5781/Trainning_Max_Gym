@@ -45,6 +45,12 @@
 .logo_footer img {
     width: 5rem;
     align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo_footer img:hover {
+    transform:scale(1.02)
 }
 
 

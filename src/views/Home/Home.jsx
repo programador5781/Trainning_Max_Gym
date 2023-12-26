@@ -9,6 +9,8 @@ import Join from '../../components/Join/Join';
 import Footer from '../../components/Footer/Footer';
 
 export const Home = () => {
+  
+
   return (
     <div>
       <Hero />
