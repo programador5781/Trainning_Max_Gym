@@ -14,68 +14,68 @@ export const testimonialsData = [
   {
     image: image1,
     review:
-      "Tomé la decisión correcta al elegir Trainning Max Gym y al escoger el plan y programa correcto ya logré mi cuerpo ideal.",
+      'Elegir Trainning Max Gym fue la mejor decisión para alcanzar mi cuerpo ideal con el plan y programa adecuado. Si buscas resultados tangibles, únete a nosotros y descubre cómo tomar las decisiones correctas pueden transformar tu vida.',
     name: 'YINA',
     status : 'EMPRENDEDORA'
   },
   {
     image: image2,
-    review: 'Mi experiencia en Trainning Max ha sido verdaderamente transformadora. Desde que me uní, he logrado alcanzar mis metas de acondicionamiento físico.',
+    review: 'Trainning Max ha sido una experiencia transformadora que me ha permitido lograr mis metas de acondicionamiento físico. Desde que me uní, he experimentado una transformación notable en mi salud y bienestar.',
     name: 'JOSÉ',
     status: 'PROFESIONAL'
   },
   {
     image : image3,
-    review:' Mi experiencia en Trainning Max ha sido verdaderamente transformadora. Desde que me uní, he logrado alcanzar mis metas de acondicionamiento físico.',
+    review:' En Trainning Max, mi viaje ha sido realmente transformador; desde que me uní, he superado mis metas de acondicionamiento físico. Esta experiencia ha sido fundamental para alcanzar una versión más fuerte y saludable de mí misma.',
     name: 'MARÍA',
     status: "PROFESIONAL"
   },
   {
     image : image4,
-    review:'Gracias a Trainning Max Gym, pude descubrir nuevos lugares, como competir en el campeonato de fisicoculturismo en Cali. ¡Ha sido una experiencia increíble!',
-    name: 'PAOLA',
-    status: "ENFERMERA"
+    review:'Trainning Max Gym me abrió puertas a nuevos horizontes, como competir en el campeonato de fisicoculturismo en Cali, ofreciéndome una experiencia inolvidable. Descubre oportunidades únicas para explorar y alcanzar logros excepcionales. ',
+    name: 'CARMEN',
+    status: "EMPRENDEDORA"
   },
   {
     image : image7,
-    review:'Gracias a Trainning Max Gym! Nos sentimos increíblemente agradecidos por ser parte de esta familia fitness. ¡Satisfechos y motivados al máximo!!',
+    review:'Estamos agradecidos por formar parte de esta familia fitness que nos motiva y satisface al máximo. Únete a nosotros para experimentar la gratitud y la motivación que nos impulsa a lograr más juntos. ¡Sé parte de esta comunidad!.',
     name: 'GRUPO DE COMPETENCIA',
     status: "MIEMBROS TRAINNING MAX"
   },
   {
     image : image8,
-    review:'Gracias a Trainning Max Gym! he logrado cumplir muchas metas, sentirme bien conmigo misma y aportar a mi comunidad con logros deportivos!.',
-    name: 'ANA',
+    review:'Trainning Max Gym ha sido mi clave para alcanzar múltiples metas personales, mejorar mi bienestar y contribuir con logros deportivos en mi comunidad. ¡Únete a esta experiencia transformadora para lograr tus metas y ser parte del impacto.',
+    name: 'DAISY',
     status: "ESTUDIANTE"
   },
   {
     image : image9,
-    review:'Gracias a Training Max Gym, exploré nuevos sitios, incluyendo competir en el concurso de PL en Cali. Conociendo así la campeona nacional de Power Lifting.',
-    name: 'OMAR',
+    review:'Trainning Max Gym abrió puertas a nuevas experiencias, como competir en el concurso de Power Lifting en Cali, donde conocí a la campeona nacional. ¡Descubre oportunidades únicas con nosotros para expandir tus límites.',
+    name: 'FRANK',
     status: "INDEPENDIENTE"
   },
   {
     image : image10,
-    review:'Constancia y disciplina, es lo que he puesto en practica en Trainning Max, gracias a esto he logrado mis metas.',
+    review:'En Trainning Max, la constancia y la disciplina son el motor que impulsa el éxito. Gracias a esta filosofía, he alcanzado mis objetivos personales y profesionales. Únete a nosotros para convertir la constancia en logros tangibles.',
     name: 'OFELIA',
     status: "AMA DE CASA"
   },
   {
     image : image11,
-    review:'Constancia y disciplina, es lo que he puesto en practica en Trainning Max, gracias a esto he logrado mis metas.',
+    review:'¿Quieres transformar tus metas en logros tangibles? Trainning Max es el camino donde la constancia y disciplina se convierten en tus aliados para alcanzar tus sueños. ¡Únete a nosotros!.',
     name: 'MERLIN',
     status: "COACH"
   },
   {
     image : image12,
-    review:'Constancia y disciplina, es lo que he puesto en practica en Trainning Max, gracias a esto he logrado mis metas.',
+    review:'Trainning Max me ha impulsado a superar mis límites y alcanzar metas que nunca imaginé. ¡Lo recomiendo totalmente para aquellos que buscan un cambio real y un ambiente motivador!.',
     name: 'PAOLA',
     status: "ESTUDIANTE"
   },
   {
     image : image13,
-    review:'En Trainning Max Gym, fortalecemos no solo nuestro cuerpo, sino también nuestra mente, permitiéndonos ser de los mejores y traer logros a San Sebas!.',
-    name: 'CAMILO',
+    review:'En Trainning Max Gym, nos dedicamos a potenciar cuerpo y mente, aspirando a la excelencia y contribuyendo al éxito de San Sebas. Únete a nosotros para alcanzar lo mejor de ti y ser parte de los triunfos de nuestra comunidad.',
+    name: 'FABIO',
     status: "ESTUDIANTE"
   }
 ];
