@@ -14,36 +14,36 @@
     grid-auto-rows: 1fr;
 }
 
-.left_reasons > img {
+.left_reasons>img {
     object-fit: cover;
     border-radius: 5px;
-    transition: transform 0.3s ease; 
+    transition: transform 0.3s ease;
 }
 
-.left_reasons > img:hover {
+.left_reasons>img:hover {
     transform: scale(1.05);
 }
 
 
-.left_reasons > :nth-child(1) {
+.left_reasons> :nth-child(1) {
     width: 12rem;
     grid-row: 1/3;
     height: 28rem;
 }
 
-.left_reasons > :nth-child(2) {
+.left_reasons> :nth-child(2) {
     width: auto;
     height: 16rem;
     grid-column: 2/4;
 }
 
-.left_reasons > :nth-child(3) {
+.left_reasons> :nth-child(3) {
     width: 14rem;
     grid-column: 2/3;
     grid-row: 2;
 }
 
-.left_reasons > :nth-child(4) {
+.left_reasons> :nth-child(4) {
     width: 10rem;
     grid-row: 2;
     grid-column: 3/4;
@@ -58,12 +58,12 @@
     flex-direction: column;
 }
 
-.right_reasons > span {
+.right_reasons>span {
     font-weight: bold;
     color: var(--orange);
 }
 
-.right_reasons > div {
+.right_reasons>div {
     color: white;
     font-size: 3rem;
     font-weight: bold;
@@ -100,12 +100,12 @@
 
 }
 
-.partners > img {
+.partners>img {
     gap: 1rem;
 }
 
 /* ----------Estilos responsive---------- */
-@media  screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .Reasons {
         flex-direction: column;
         margin-bottom: 5rem;
@@ -116,21 +116,34 @@
         overflow: hidden;
     }
 
-    .left_reasons > :nth-child(1){
+    .left_reasons> :nth-child(1) {
         width: 7rem;
         height: 17rem;
     }
-    .left_reasons > :nth-child(2){
+
+    .left_reasons> :nth-child(2) {
         width: 15rem;
         height: 10rem;
     }
-    .left_reasons > :nth-child(3){
+
+    .left_reasons> :nth-child(3) {
         width: 7rem;
     }
-    .left_reasons > :nth-child(4){
+
+    .left_reasons> :nth-child(4) {
         width: 7rem;
         height: 6rem;
     }
+
+    /* .stroke_text {
+        font-size: normal;
+    } */
+
+    div>span:nth-child(2) {
+        font-size: smaller;
+        /* Cambiar el tamaño del texto a smaller */
+    }
+
     .partners>img {
         width: 3rem;
     }

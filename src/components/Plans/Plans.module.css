@@ -143,4 +143,8 @@
     .plans>:nth-child(2) {
         transform: none;
     }
+
+    .programs_header > span.training {
+        font-size: 2.2rem; /* Ajusta el tamaño del texto para igualarlo al resto */
+    }
 }
