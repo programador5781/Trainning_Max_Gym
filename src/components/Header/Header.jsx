@@ -71,6 +71,16 @@ const Header = () => {
                         Testimonios
                     </Link>
                 </li>
+                <li >
+                    <Link
+                        onClick={() => setMenuOpened(false)}
+                        to='proteins'
+                        spy={true}
+                        smooth={true}
+                    >
+                        Proteínas
+                    </Link>
+                </li>
             </ul>}
 
         </div>
