@@ -7,6 +7,7 @@ import Plans from '../../components/Plans/Plans';
 import Testimonials from '../../components/Testimonials/Testimonials';
 import Join from '../../components/Join/Join';
 import Footer from '../../components/Footer/Footer';
+import Protein from '../../components/Protein/Protein';
 
 export const Home = () => {
   
@@ -19,6 +20,7 @@ export const Home = () => {
       <Plans /> 
       <Testimonials />
       <Join />
+      <Protein />
       <Footer />
     </div>
   )

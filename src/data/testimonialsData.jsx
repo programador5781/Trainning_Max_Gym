@@ -8,7 +8,7 @@ import image9 from "../assets/t-image-9.jpg";
 import image10 from "../assets/t-image-10.jpg";
 import image11 from "../assets/t-image-11.jpg";
 import image12 from "../assets/t-image-12.jpg";
-import image13 from "../assets/t-image-13.jpg";
+import image15 from "../assets/t-image-15.jpg";
 
 export const testimonialsData = [
   {
@@ -33,7 +33,7 @@ export const testimonialsData = [
   {
     image : image4,
     review:'Trainning Max Gym me abrió puertas a nuevos horizontes, como competir en el campeonato de fisicoculturismo en Cali, ofreciéndome una experiencia inolvidable. Descubre oportunidades únicas para explorar y alcanzar logros excepcionales. ',
-    name: 'CARMEN',
+    name: 'ANGIE',
     status: "EMPRENDEDORA"
   },
   {
@@ -42,15 +42,10 @@ export const testimonialsData = [
     name: 'GRUPO DE COMPETENCIA',
     status: "MIEMBROS TRAINNING MAX"
   },
-  {
-    image : image8,
-    review:'Trainning Max Gym ha sido mi clave para alcanzar múltiples metas personales, mejorar mi bienestar y contribuir con logros deportivos en mi comunidad. ¡Únete a esta experiencia transformadora para lograr tus metas y ser parte del impacto.',
-    name: 'DAISY',
-    status: "ESTUDIANTE"
-  },
+  
   {
     image : image9,
-    review:'Trainning Max Gym abrió puertas a nuevas experiencias, como competir en el concurso de Power Lifting en Cali, donde conocí a la campeona nacional. ¡Descubre oportunidades únicas con nosotros para expandir tus límites.',
+    review:'Trainning Max Gym abrió puertas a nuevas experiencias, como competir en el concurso de Power Lifting en Cali, donde conocí a la campeona mundial. ¡Descubre oportunidades únicas con nosotros para expandir tus límites.',
     name: 'FRANK',
     status: "INDEPENDIENTE"
   },
@@ -58,7 +53,7 @@ export const testimonialsData = [
     image : image10,
     review:'En Trainning Max, la constancia y la disciplina son el motor que impulsa el éxito. Gracias a esta filosofía, he alcanzado mis objetivos personales y profesionales. Únete a nosotros para convertir la constancia en logros tangibles.',
     name: 'OFELIA',
-    status: "AMA DE CASA"
+    status: "EMPRENDEDORA"
   },
   {
     image : image11,
@@ -69,13 +64,13 @@ export const testimonialsData = [
   {
     image : image12,
     review:'Trainning Max me ha impulsado a superar mis límites y alcanzar metas que nunca imaginé. ¡Lo recomiendo totalmente para aquellos que buscan un cambio real y un ambiente motivador!.',
-    name: 'PAOLA',
-    status: "ESTUDIANTE"
+    name: 'DAISY',
+    status: "EMPRENDEDORA"
   },
   {
-    image : image13,
+    image : image15,
     review:'En Trainning Max Gym, nos dedicamos a potenciar cuerpo y mente, aspirando a la excelencia y contribuyendo al éxito de San Sebas. Únete a nosotros para alcanzar lo mejor de ti y ser parte de los triunfos de nuestra comunidad.',
-    name: 'FABIO',
-    status: "ESTUDIANTE"
+    name: 'DAROLD',
+    status: "INDEPENDIENTE"
   }
 ];
