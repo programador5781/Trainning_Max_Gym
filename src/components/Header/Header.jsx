@@ -48,7 +48,7 @@ const Header = () => {
                         spy={true}
                         smooth={true}
                     >
-                        Porque Nosotros
+                        Nosotros
                     </Link>
                 </li>
                 <li >
@@ -79,6 +79,16 @@ const Header = () => {
                         smooth={true}
                     >
                         Proteínas
+                    </Link>
+                </li>
+                <li >
+                    <Link
+                        onClick={() => setMenuOpened(false)}
+                        to='advertisements'
+                        spy={true}
+                        smooth={true}
+                    >
+                        Anuncios
                     </Link>
                 </li>
             </ul>}
