@@ -8,7 +8,7 @@ import Testimonials from '../../components/Testimonials/Testimonials';
 import Join from '../../components/Join/Join';
 import Footer from '../../components/Footer/Footer';
 import Protein from '../../components/Protein/Protein';
-
+import Advertisements from '../../components/Advertisements/Advertisements';
 export const Home = () => {
   
 
@@ -21,6 +21,7 @@ export const Home = () => {
       <Testimonials />
       <Join />
       <Protein />
+      <Advertisements />
       <Footer />
     </div>
   )
