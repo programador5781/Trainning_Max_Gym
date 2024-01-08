@@ -95,7 +95,7 @@
 
 /* ----------Estilos responsive---------- */
 @media  screen and (max-width: 768px) {
-    .Testimonials {
+    .Advertisements {
         flex-direction: column;
     }
 
